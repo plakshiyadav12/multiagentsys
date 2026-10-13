@@ -1,0 +1,19 @@
+[project]
+name = "multiagentsys"
+version = "0.1.0"
+description = "Multi-Agent AI Research System built with LangChain and LangGraph"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "httpx>=0.28.1",
+    "langchain",
+    "langchain-google-genai",
+    "langgraph",
+    "pydantic",
+    "python-dotenv",
+    "tavily-python>=0.8.2",
+]
+
+[tool.uv]
+link-mode = "copy"

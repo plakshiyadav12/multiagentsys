@@ -1,0 +1,15 @@
+langchain
+langchain-core
+langchain-google-genai
+python-dotenv
+pydantic
+requests
+
+# Web page parsing - we'll use this later for our Reader Agent
+beautifulsoup4
+
+# Useful for async/concurrent research later
+httpx
+
+# UI - we'll use this later
+streamlit
